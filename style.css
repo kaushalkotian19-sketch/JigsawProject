@@ -1,1 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #222; /* Dark background so the pieces pop */
+    overflow: hidden; /* Prevents scrollbars */
+    touch-action: none; /* Crucial for mobile: stops browser from zooming/scrolling on touch */
+}
+
+canvas {
+    display: block;
+}
